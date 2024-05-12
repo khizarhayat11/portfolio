@@ -765,8 +765,18 @@ main {
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
-
-
+.resume-alert{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.resume-alert > .form-btn{
+  margin-left:unset !important;
+  width: 100%;
+}
+.resume-alert > p {
+  font-size: 22px;
+}
 /**
  * education and experience 
  */
