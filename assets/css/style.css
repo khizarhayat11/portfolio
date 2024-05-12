@@ -1161,7 +1161,25 @@ main {
   border-radius: 14px;
   outline: none;
 }
+.file-submission{
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+}
 
+.input-file{
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 20px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  outline: none;
+  margin-top: 10px;
+}
+.input-file::placeholder { font-weight: var(--fw-500); }
+
+.input-file:focus { border-color: var(--orange-yellow-crayola); }
 .form-input::placeholder { font-weight: var(--fw-500); }
 
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
@@ -1187,6 +1205,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 15px;
   padding: 13px 20px;
   border-radius: 14px;
   font-size: var(--fs-6);
