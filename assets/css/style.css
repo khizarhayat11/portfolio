@@ -1403,7 +1403,24 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * #ABOUT
    */
-
+.sub-title{
+  color: #b5c687;
+  font-size: 16px;
+  font-weight: 100;
+}
+.info-about-value{
+  display: flex;
+  margin-top: 45px;
+}
+.text-info-item{
+  width: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.img-info-two{
+  transform: rotate(0.5turn);
+}
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
