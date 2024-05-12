@@ -774,7 +774,7 @@ main {
   margin-left:unset !important;
   width: 100%;
 }
-.resume-alert > p {
+.resume-alert > .form-btn > p {
   font-size: 22px;
 }
 /**
