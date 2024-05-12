@@ -1286,7 +1286,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
+  .sub-title{
+    color: #b5c687;
+    font-size: 16px;
+    font-weight: 100;
+  }
 
   /**
    * #PORTFOLIO, BLOG 
@@ -1665,7 +1669,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .modal-avatar-box img { width: 80px; }
-
+  .sub-title{
+    color: #b5c687;
+    font-size: 16px;
+    font-weight: 100;
+  }
 
 
   /**
@@ -1795,7 +1803,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * ABOUT
    */
-
+   .sub-title{
+    color: #b5c687;
+    font-size: 16px;
+    font-weight: 100;
+  }
   /* service */
 
   .service-list {
@@ -1905,7 +1917,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-top: 35px;
     z-index: 1;
   }
-
+  .sub-title{
+    color: #b5c687;
+    font-size: 16px;
+    font-weight: 100;
+  }
   .sidebar-info { flex-direction: column; }
 
   .avatar-box img { width: 245px; }
